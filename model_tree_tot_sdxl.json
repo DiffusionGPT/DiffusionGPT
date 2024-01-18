@@ -1,0 +1,912 @@
+{
+  "objects": {
+    "futuristic": [
+      {
+        "model_name": "weird_future_fashion_v5_xl.safetensors",
+        "model_type": "lora",
+        "tag": [
+          "futuristic",
+          "clothing",
+          "fashion design"
+        ],
+        "version": "v5xl",
+        "trigger_words": [
+          "weird future fashion"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "DynaVision XL All-in-one"
+        ],
+        "example_prompts": [
+          "<lora:weird future fashion_v5_xl:1> a clean shaven man, wearing thorny fractal metallic transparent hard plastic astronaut [visor|helmet], ((black clothes)), weird future fashion, EL led wire, standing in an alien orange orchard, (cinematic overcast lighting), bokeh, hdr, 8k, sharp focus, dof, 35 mm lens portrait, close up (professional model photograph), (shallow focus), (extremely detailed face and body), mood lighting",
+          "(8k, masterpiece:1.2), Night view of city streets, The lights of the night, (ultra highres:1.0), watercolor, close up face, a beautiful woman, transparent blouse, safety goggles with visor, cybernetic robotic LED face, weird future fashion with straps, (detailed face), model photoshoot style, long glowing [red|green|yellow|black] hair made of optic fibers on head, hdr, backlighting, realism, (hyperrealism), (cinematic), (hyperdetailed:1.2), best quality, refraction, (best quality:1.0), close up, <lora:weird future fashion_v5_xl:1>"
+        ],
+        "negtive_prompts": [
+          "(illustration) (cartoon) (lowres) (blurry), old, child, symmetrical, harsh lighting, nude, symmetrical pose",
+          "asian face, plastic skin, doll, full body, canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)), blurry, extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly"
+        ]
+      }
+    ],
+    "anime": [
+      {
+        "model_name": "fenrisxl_801Photorealistic.safetensors",
+        "model_type": "checkpoint merge",
+        "tag": [
+          "animal",
+          "anime",
+          "landscapes"
+        ],
+        "version": "8.01",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "a cute anime cat that wearing a pirate outfit like in the one piece manga, detailed, realistic, 8k uhd, high quality",
+          "an shiba inu mechanic is repairing his steampunk car, detailed, realistic, 8k uhd, high quality"
+        ],
+        "negtive_prompts": [
+          "static, noisy, deformed, shaky, abrupt, flat, low contrast, boring, tits, nude, woman, smooth, plastic, blurry, low-resolution, deep-fried, oversaturated",
+          "static, noisy, deformed, shaky, abrupt, flat, low contrast, boring, tits, nude, woman, smooth, plastic, blurry, low-resolution, deep-fried, oversaturated"
+        ]
+      },
+      {
+        "model_name": "dynavisionXLAllInOneStylized_beta0411Bakedvae.safetensors",
+        "model_type": "checkpoint merge",
+        "tag": [
+          "anime",
+          "3d",
+          "style",
+          "girls"
+        ],
+        "version": "beta_0.4.1.1",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "ethereal fantasy concept art of A magenta haired woman on vacation enjoying the local party scene  at morning in Mos Eisley on the planet Tatooine in Star Wars   . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy, skeptical, doubting, cynical",
+          "A orange (skinned wrinkly alien being wearing traditional clothing:1.3) on vacation enjoying the local party scene  at noon in inside a dark and mysterious alien junk shop in Knowhere by Marvel Guardians of the Galaxy , involved in a project, line art inked negative space minimalistic pencil and paper simple drawing  Naoko Takeuchi"
+        ],
+        "negtive_prompts": [
+          "photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white, (nsfw nudity naked nipples:1.3)",
+          "(nsfw nudity naked nipples:1.3)"
+        ]
+      },
+      {
+        "model_name": "sdxlNijiSpecial_sdxlNijiSE.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "Midjourney",
+          "anime",
+          "style",
+          "Niji"
+        ],
+        "version": "SDXL_NIJI",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "Fairy, HDR, ultra high-detail, centered, bokeh, lens flare, foggy dusk, bloom, light bloom, cinematic lighting, high dynamic range, depth of field, full pose",
+          "knight, short messy blond hair, blue eyes, scales, detailed armor, short hair, metallic, highly detailed paiting, ornaments, gold, nice body, hyper detailed face, unreal engine, 8k, Ultra high quality, detailed face, soft natural skin, detailed reflective eyes, sparks, airy, leaves, sunlight, sunny day, sunbeams, bright colors, fantasy, concept art, digital art, flawless eyes, flawless face, flawless, beautiful detailed eyes, hyperdetailed face, complex, golden ratio"
+        ],
+        "negtive_prompts": [
+          "(worst quality, low quality, normal quality, bad quality:1.4), (lowres:1.3), (extra fingers, missing fingers:1.2), (poorly rendered hands:1.2), (mutation:1.1), (mutated hands:1.3), (deformed iris, deformed pupils:1.1), watermark, missing arms, missing hands, (long neck:1.4), (poorly drawn:1.3), (poorly drawn eyes:1.2), (poorly drawn hands:1.3), (poorly drawn iris:1.2), (poorly drawn pupils:1.2), (realistic:1.5), (blurry:1.1)",
+          "(worst quality, low quality, normal quality, bad quality:1.4), (lowres:1.3), (extra fingers, missing fingers:1.2), (poorly rendered hands:1.2), (mutation:1.1), (mutated hands:1.3), (deformed iris, deformed pupils:1.1), watermark, missing arms, missing hands, (long neck:1.4), (poorly drawn:1.3), (poorly drawn eyes:1.2), (poorly drawn hands:1.3), (poorly drawn iris:1.2), (poorly drawn pupils:1.2), (realistic:1.5)"
+        ]
+      }
+    ],
+    "realistic": [
+      {
+        "model_name": "copaxTimelessxlSDXL1_v5.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "person",
+          "realistic",
+          "style",
+          "copax timeless"
+        ],
+        "version": "v5",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      },
+      {
+        "model_name": "lwmirXL-V1.0fp16.safetensors",
+        "model_type": "lora",
+        "tag": [
+          "buildings",
+          "architecture"
+        ],
+        "version": "v1.0",
+        "trigger_words": [
+          "mir"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "SDXL 1.0"
+        ],
+        "example_prompts": [
+          "architecture,masterpiece,super detailed,8k,great quality,hires,realistic,photorealistic,sharp focus,Museum,modern,zaha hadid, award-winning, professional, highly detailed",
+          "A futuristic architectural marvel, envisioned by Zhang Lei, visionary architect, innovative design, sleek lines, cutting-edge materials, soaring skyscrapers piercing the sky, a cityscape of glass and steel, suspended walkways and floating gardens, advanced sustainable technology, self-sufficient energy systems, integrated transportation networks, seamless fusion of nature and urbanity, awe-inspiring structures that redefine the notion of modernity, a glimpse into the possibilities of a future where architecture pushes the boundaries of imagination award-winning, professional, highly detailed"
+        ],
+        "negtive_prompts": [
+          "text, watermark\uff0cugly, deformed, noisy, blurry, distorted, grainy",
+          "text, watermark\uff0cugly, deformed, noisy, blurry, distorted, grainy"
+        ]
+      }
+    ],
+    "universal": [
+      {
+        "model_name": "kandinsky",
+        "model_type": "checkpoint",
+        "tag": [
+          "base model",
+          "universal",
+          "animals",
+          "objects",
+          "anything"
+        ],
+        "version": "2.1",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "None",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      },
+      {
+        "model_name": "stable-diffusion-xl-base-1.0",
+        "model_type": "checkpoint",
+        "tag": [
+          "base model",
+          "universal",
+          "animals",
+          "objects",
+          "anything"
+        ],
+        "version": "1.0",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      }
+    ],
+    "anything": [
+      {
+        "model_name": "dreamshaperXL10_alpha2Xl10.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "base model",
+          "artstyle",
+          "person",
+          "realistic",
+          "dreamshaper"
+        ],
+        "version": "alpha2",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "photo, 8k portrait of beautiful cyborg with brown hair, intricate, elegant, highly detailed, majestic, digital photography, art by artgerm and ruan jia and greg rutkowski surreal painting gold butterfly filigree, broken glass, (masterpiece, sidelighting, finely detailed beautiful eyes: 1.2), hdr, realistic, high definition",
+          "(masterpiece), (extremely intricate:1.3), (realistic), movie screencap, dragon flying through the sky, 8k, 4k, hd"
+        ],
+        "negtive_prompts": [
+          "embedding:BadDream, embedding:FastNegativeV2",
+          "(deformed iris, deformed pupils), text, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, (extra fingers), (mutated hands), poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, (fused fingers), (too many fingers), long neck, camera embedding:BadDream embedding:FastNegativeV2"
+        ]
+      }
+    ]
+  },
+  "animals": {
+    "futuristic": [
+      {
+        "model_name": "weird_future_fashion_v5_xl.safetensors",
+        "model_type": "lora",
+        "tag": [
+          "futuristic",
+          "clothing",
+          "fashion design"
+        ],
+        "version": "v5xl",
+        "trigger_words": [
+          "weird future fashion"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "DynaVision XL All-in-one"
+        ],
+        "example_prompts": [
+          "<lora:weird future fashion_v5_xl:1> a clean shaven man, wearing thorny fractal metallic transparent hard plastic astronaut [visor|helmet], ((black clothes)), weird future fashion, EL led wire, standing in an alien orange orchard, (cinematic overcast lighting), bokeh, hdr, 8k, sharp focus, dof, 35 mm lens portrait, close up (professional model photograph), (shallow focus), (extremely detailed face and body), mood lighting",
+          "(8k, masterpiece:1.2), Night view of city streets, The lights of the night, (ultra highres:1.0), watercolor, close up face, a beautiful woman, transparent blouse, safety goggles with visor, cybernetic robotic LED face, weird future fashion with straps, (detailed face), model photoshoot style, long glowing [red|green|yellow|black] hair made of optic fibers on head, hdr, backlighting, realism, (hyperrealism), (cinematic), (hyperdetailed:1.2), best quality, refraction, (best quality:1.0), close up, <lora:weird future fashion_v5_xl:1>"
+        ],
+        "negtive_prompts": [
+          "(illustration) (cartoon) (lowres) (blurry), old, child, symmetrical, harsh lighting, nude, symmetrical pose",
+          "asian face, plastic skin, doll, full body, canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)), blurry, extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly"
+        ]
+      }
+    ],
+    "anime": [
+      {
+        "model_name": "fenrisxl_801Photorealistic.safetensors",
+        "model_type": "checkpoint merge",
+        "tag": [
+          "animal",
+          "anime",
+          "landscapes"
+        ],
+        "version": "8.01",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "a cute anime cat that wearing a pirate outfit like in the one piece manga, detailed, realistic, 8k uhd, high quality",
+          "an shiba inu mechanic is repairing his steampunk car, detailed, realistic, 8k uhd, high quality"
+        ],
+        "negtive_prompts": [
+          "static, noisy, deformed, shaky, abrupt, flat, low contrast, boring, tits, nude, woman, smooth, plastic, blurry, low-resolution, deep-fried, oversaturated",
+          "static, noisy, deformed, shaky, abrupt, flat, low contrast, boring, tits, nude, woman, smooth, plastic, blurry, low-resolution, deep-fried, oversaturated"
+        ]
+      },
+      {
+        "model_name": "dynavisionXLAllInOneStylized_beta0411Bakedvae.safetensors",
+        "model_type": "checkpoint merge",
+        "tag": [
+          "anime",
+          "3d",
+          "style",
+          "girls"
+        ],
+        "version": "beta_0.4.1.1",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "ethereal fantasy concept art of A magenta haired woman on vacation enjoying the local party scene  at morning in Mos Eisley on the planet Tatooine in Star Wars   . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy, skeptical, doubting, cynical",
+          "A orange (skinned wrinkly alien being wearing traditional clothing:1.3) on vacation enjoying the local party scene  at noon in inside a dark and mysterious alien junk shop in Knowhere by Marvel Guardians of the Galaxy , involved in a project, line art inked negative space minimalistic pencil and paper simple drawing  Naoko Takeuchi"
+        ],
+        "negtive_prompts": [
+          "photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white, (nsfw nudity naked nipples:1.3)",
+          "(nsfw nudity naked nipples:1.3)"
+        ]
+      },
+      {
+        "model_name": "sdxlNijiSpecial_sdxlNijiSE.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "Midjourney",
+          "anime",
+          "style",
+          "Niji"
+        ],
+        "version": "SDXL_NIJI",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "Fairy, HDR, ultra high-detail, centered, bokeh, lens flare, foggy dusk, bloom, light bloom, cinematic lighting, high dynamic range, depth of field, full pose",
+          "knight, short messy blond hair, blue eyes, scales, detailed armor, short hair, metallic, highly detailed paiting, ornaments, gold, nice body, hyper detailed face, unreal engine, 8k, Ultra high quality, detailed face, soft natural skin, detailed reflective eyes, sparks, airy, leaves, sunlight, sunny day, sunbeams, bright colors, fantasy, concept art, digital art, flawless eyes, flawless face, flawless, beautiful detailed eyes, hyperdetailed face, complex, golden ratio"
+        ],
+        "negtive_prompts": [
+          "(worst quality, low quality, normal quality, bad quality:1.4), (lowres:1.3), (extra fingers, missing fingers:1.2), (poorly rendered hands:1.2), (mutation:1.1), (mutated hands:1.3), (deformed iris, deformed pupils:1.1), watermark, missing arms, missing hands, (long neck:1.4), (poorly drawn:1.3), (poorly drawn eyes:1.2), (poorly drawn hands:1.3), (poorly drawn iris:1.2), (poorly drawn pupils:1.2), (realistic:1.5), (blurry:1.1)",
+          "(worst quality, low quality, normal quality, bad quality:1.4), (lowres:1.3), (extra fingers, missing fingers:1.2), (poorly rendered hands:1.2), (mutation:1.1), (mutated hands:1.3), (deformed iris, deformed pupils:1.1), watermark, missing arms, missing hands, (long neck:1.4), (poorly drawn:1.3), (poorly drawn eyes:1.2), (poorly drawn hands:1.3), (poorly drawn iris:1.2), (poorly drawn pupils:1.2), (realistic:1.5)"
+        ]
+      }
+    ],
+    "realistic": [
+      {
+        "model_name": "copaxTimelessxlSDXL1_v5.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "person",
+          "realistic",
+          "style",
+          "copax timeless"
+        ],
+        "version": "v5",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      }
+    ],
+    "universal": [
+      {
+        "model_name": "kandinsky",
+        "model_type": "checkpoint",
+        "tag": [
+          "base model",
+          "universal",
+          "animals",
+          "objects",
+          "anything"
+        ],
+        "version": "2.1",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "None",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      },
+      {
+        "model_name": "stable-diffusion-xl-base-1.0",
+        "model_type": "checkpoint",
+        "tag": [
+          "base model",
+          "universal",
+          "animals",
+          "objects",
+          "anything"
+        ],
+        "version": "1.0",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      }
+    ],
+    "anything": [
+      {
+        "model_name": "dreamshaperXL10_alpha2Xl10.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "base model",
+          "artstyle",
+          "person",
+          "realistic",
+          "dreamshaper"
+        ],
+        "version": "alpha2",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "photo, 8k portrait of beautiful cyborg with brown hair, intricate, elegant, highly detailed, majestic, digital photography, art by artgerm and ruan jia and greg rutkowski surreal painting gold butterfly filigree, broken glass, (masterpiece, sidelighting, finely detailed beautiful eyes: 1.2), hdr, realistic, high definition",
+          "(masterpiece), (extremely intricate:1.3), (realistic), movie screencap, dragon flying through the sky, 8k, 4k, hd"
+        ],
+        "negtive_prompts": [
+          "embedding:BadDream, embedding:FastNegativeV2",
+          "(deformed iris, deformed pupils), text, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, (extra fingers), (mutated hands), poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, (fused fingers), (too many fingers), long neck, camera embedding:BadDream embedding:FastNegativeV2"
+        ]
+      }
+    ]
+  },
+  "people": {
+    "futuristic": [
+      {
+        "model_name": "weird_future_fashion_v5_xl.safetensors",
+        "model_type": "lora",
+        "tag": [
+          "futuristic",
+          "clothing",
+          "fashion design"
+        ],
+        "version": "v5xl",
+        "trigger_words": [
+          "weird future fashion"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "DynaVision XL All-in-one"
+        ],
+        "example_prompts": [
+          "<lora:weird future fashion_v5_xl:1> a clean shaven man, wearing thorny fractal metallic transparent hard plastic astronaut [visor|helmet], ((black clothes)), weird future fashion, EL led wire, standing in an alien orange orchard, (cinematic overcast lighting), bokeh, hdr, 8k, sharp focus, dof, 35 mm lens portrait, close up (professional model photograph), (shallow focus), (extremely detailed face and body), mood lighting",
+          "(8k, masterpiece:1.2), Night view of city streets, The lights of the night, (ultra highres:1.0), watercolor, close up face, a beautiful woman, transparent blouse, safety goggles with visor, cybernetic robotic LED face, weird future fashion with straps, (detailed face), model photoshoot style, long glowing [red|green|yellow|black] hair made of optic fibers on head, hdr, backlighting, realism, (hyperrealism), (cinematic), (hyperdetailed:1.2), best quality, refraction, (best quality:1.0), close up, <lora:weird future fashion_v5_xl:1>"
+        ],
+        "negtive_prompts": [
+          "(illustration) (cartoon) (lowres) (blurry), old, child, symmetrical, harsh lighting, nude, symmetrical pose",
+          "asian face, plastic skin, doll, full body, canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)), blurry, extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly"
+        ]
+      }
+    ],
+    "anime": [
+      {
+        "model_name": "dynavisionXLAllInOneStylized_beta0411Bakedvae.safetensors",
+        "model_type": "checkpoint merge",
+        "tag": [
+          "anime",
+          "3d",
+          "style",
+          "girls"
+        ],
+        "version": "beta_0.4.1.1",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "ethereal fantasy concept art of A magenta haired woman on vacation enjoying the local party scene  at morning in Mos Eisley on the planet Tatooine in Star Wars   . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy, skeptical, doubting, cynical",
+          "A orange (skinned wrinkly alien being wearing traditional clothing:1.3) on vacation enjoying the local party scene  at noon in inside a dark and mysterious alien junk shop in Knowhere by Marvel Guardians of the Galaxy , involved in a project, line art inked negative space minimalistic pencil and paper simple drawing  Naoko Takeuchi"
+        ],
+        "negtive_prompts": [
+          "photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white, (nsfw nudity naked nipples:1.3)",
+          "(nsfw nudity naked nipples:1.3)"
+        ]
+      },
+      {
+        "model_name": "sdxlNijiSpecial_sdxlNijiSE.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "Midjourney",
+          "anime",
+          "style",
+          "Niji"
+        ],
+        "version": "SDXL_NIJI",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "Fairy, HDR, ultra high-detail, centered, bokeh, lens flare, foggy dusk, bloom, light bloom, cinematic lighting, high dynamic range, depth of field, full pose",
+          "knight, short messy blond hair, blue eyes, scales, detailed armor, short hair, metallic, highly detailed paiting, ornaments, gold, nice body, hyper detailed face, unreal engine, 8k, Ultra high quality, detailed face, soft natural skin, detailed reflective eyes, sparks, airy, leaves, sunlight, sunny day, sunbeams, bright colors, fantasy, concept art, digital art, flawless eyes, flawless face, flawless, beautiful detailed eyes, hyperdetailed face, complex, golden ratio"
+        ],
+        "negtive_prompts": [
+          "(worst quality, low quality, normal quality, bad quality:1.4), (lowres:1.3), (extra fingers, missing fingers:1.2), (poorly rendered hands:1.2), (mutation:1.1), (mutated hands:1.3), (deformed iris, deformed pupils:1.1), watermark, missing arms, missing hands, (long neck:1.4), (poorly drawn:1.3), (poorly drawn eyes:1.2), (poorly drawn hands:1.3), (poorly drawn iris:1.2), (poorly drawn pupils:1.2), (realistic:1.5), (blurry:1.1)",
+          "(worst quality, low quality, normal quality, bad quality:1.4), (lowres:1.3), (extra fingers, missing fingers:1.2), (poorly rendered hands:1.2), (mutation:1.1), (mutated hands:1.3), (deformed iris, deformed pupils:1.1), watermark, missing arms, missing hands, (long neck:1.4), (poorly drawn:1.3), (poorly drawn eyes:1.2), (poorly drawn hands:1.3), (poorly drawn iris:1.2), (poorly drawn pupils:1.2), (realistic:1.5)"
+        ]
+      }
+    ],
+    "realistic": [
+      {
+        "model_name": "copaxTimelessxlSDXL1_v5.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "person",
+          "realistic",
+          "style",
+          "copax timeless"
+        ],
+        "version": "v5",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      },
+      {
+        "model_name": "dreamshaperXL10_alpha2Xl10.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "base model",
+          "artstyle",
+          "person",
+          "realistic",
+          "dreamshaper"
+        ],
+        "version": "alpha2",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "photo, 8k portrait of beautiful cyborg with brown hair, intricate, elegant, highly detailed, majestic, digital photography, art by artgerm and ruan jia and greg rutkowski surreal painting gold butterfly filigree, broken glass, (masterpiece, sidelighting, finely detailed beautiful eyes: 1.2), hdr, realistic, high definition",
+          "(masterpiece), (extremely intricate:1.3), (realistic), movie screencap, dragon flying through the sky, 8k, 4k, hd"
+        ],
+        "negtive_prompts": [
+          "embedding:BadDream, embedding:FastNegativeV2",
+          "(deformed iris, deformed pupils), text, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, (extra fingers), (mutated hands), poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, (fused fingers), (too many fingers), long neck, camera embedding:BadDream embedding:FastNegativeV2"
+        ]
+      }
+    ],
+    "universal": [
+      {
+        "model_name": "kandinsky",
+        "model_type": "checkpoint",
+        "tag": [
+          "base model",
+          "universal",
+          "animals",
+          "objects",
+          "anything"
+        ],
+        "version": "2.1",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "None",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      },
+      {
+        "model_name": "stable-diffusion-xl-base-1.0",
+        "model_type": "checkpoint",
+        "tag": [
+          "base model",
+          "universal",
+          "animals",
+          "objects",
+          "anything"
+        ],
+        "version": "1.0",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      }
+    ],
+    "anything": [
+      {
+        "model_name": "dreamshaperXL10_alpha2Xl10.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "base model",
+          "artstyle",
+          "person",
+          "realistic",
+          "dreamshaper"
+        ],
+        "version": "alpha2",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "photo, 8k portrait of beautiful cyborg with brown hair, intricate, elegant, highly detailed, majestic, digital photography, art by artgerm and ruan jia and greg rutkowski surreal painting gold butterfly filigree, broken glass, (masterpiece, sidelighting, finely detailed beautiful eyes: 1.2), hdr, realistic, high definition",
+          "(masterpiece), (extremely intricate:1.3), (realistic), movie screencap, dragon flying through the sky, 8k, 4k, hd"
+        ],
+        "negtive_prompts": [
+          "embedding:BadDream, embedding:FastNegativeV2",
+          "(deformed iris, deformed pupils), text, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, (extra fingers), (mutated hands), poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, (fused fingers), (too many fingers), long neck, camera embedding:BadDream embedding:FastNegativeV2"
+        ]
+      }
+    ]
+  },
+  "vehicles": {
+    "futuristic": [
+      {
+        "model_name": "starcitizen.safetensors",
+        "model_type": "lora",
+        "tag": [
+          "vehicle",
+          "space",
+          "mecha"
+        ],
+        "version": "v1.0",
+        "trigger_words": [
+          "star citizen"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "dreamshaperXL"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      }
+    ],
+    "anime": [
+      {
+        "model_name": "fenrisxl_801Photorealistic.safetensors",
+        "model_type": "checkpoint merge",
+        "tag": [
+          "animal",
+          "anime",
+          "landscapes"
+        ],
+        "version": "8.01",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "a cute anime cat that wearing a pirate outfit like in the one piece manga, detailed, realistic, 8k uhd, high quality",
+          "an shiba inu mechanic is repairing his steampunk car, detailed, realistic, 8k uhd, high quality"
+        ],
+        "negtive_prompts": [
+          "static, noisy, deformed, shaky, abrupt, flat, low contrast, boring, tits, nude, woman, smooth, plastic, blurry, low-resolution, deep-fried, oversaturated",
+          "static, noisy, deformed, shaky, abrupt, flat, low contrast, boring, tits, nude, woman, smooth, plastic, blurry, low-resolution, deep-fried, oversaturated"
+        ]
+      },
+      {
+        "model_name": "dynavisionXLAllInOneStylized_beta0411Bakedvae.safetensors",
+        "model_type": "checkpoint merge",
+        "tag": [
+          "anime",
+          "3d",
+          "style",
+          "girls"
+        ],
+        "version": "beta_0.4.1.1",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "ethereal fantasy concept art of A magenta haired woman on vacation enjoying the local party scene  at morning in Mos Eisley on the planet Tatooine in Star Wars   . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy, skeptical, doubting, cynical",
+          "A orange (skinned wrinkly alien being wearing traditional clothing:1.3) on vacation enjoying the local party scene  at noon in inside a dark and mysterious alien junk shop in Knowhere by Marvel Guardians of the Galaxy , involved in a project, line art inked negative space minimalistic pencil and paper simple drawing  Naoko Takeuchi"
+        ],
+        "negtive_prompts": [
+          "photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white, (nsfw nudity naked nipples:1.3)",
+          "(nsfw nudity naked nipples:1.3)"
+        ]
+      },
+      {
+        "model_name": "sdxlNijiSpecial_sdxlNijiSE.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "Midjourney",
+          "anime",
+          "style",
+          "Niji"
+        ],
+        "version": "SDXL_NIJI",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "Fairy, HDR, ultra high-detail, centered, bokeh, lens flare, foggy dusk, bloom, light bloom, cinematic lighting, high dynamic range, depth of field, full pose",
+          "knight, short messy blond hair, blue eyes, scales, detailed armor, short hair, metallic, highly detailed paiting, ornaments, gold, nice body, hyper detailed face, unreal engine, 8k, Ultra high quality, detailed face, soft natural skin, detailed reflective eyes, sparks, airy, leaves, sunlight, sunny day, sunbeams, bright colors, fantasy, concept art, digital art, flawless eyes, flawless face, flawless, beautiful detailed eyes, hyperdetailed face, complex, golden ratio"
+        ],
+        "negtive_prompts": [
+          "(worst quality, low quality, normal quality, bad quality:1.4), (lowres:1.3), (extra fingers, missing fingers:1.2), (poorly rendered hands:1.2), (mutation:1.1), (mutated hands:1.3), (deformed iris, deformed pupils:1.1), watermark, missing arms, missing hands, (long neck:1.4), (poorly drawn:1.3), (poorly drawn eyes:1.2), (poorly drawn hands:1.3), (poorly drawn iris:1.2), (poorly drawn pupils:1.2), (realistic:1.5), (blurry:1.1)",
+          "(worst quality, low quality, normal quality, bad quality:1.4), (lowres:1.3), (extra fingers, missing fingers:1.2), (poorly rendered hands:1.2), (mutation:1.1), (mutated hands:1.3), (deformed iris, deformed pupils:1.1), watermark, missing arms, missing hands, (long neck:1.4), (poorly drawn:1.3), (poorly drawn eyes:1.2), (poorly drawn hands:1.3), (poorly drawn iris:1.2), (poorly drawn pupils:1.2), (realistic:1.5)"
+        ]
+      }
+    ],
+    "realistic": [
+      {
+        "model_name": "copaxTimelessxlSDXL1_v5.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "person",
+          "realistic",
+          "style",
+          "copax timeless"
+        ],
+        "version": "v5",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      }
+    ],
+    "universal": [
+      {
+        "model_name": "kandinsky",
+        "model_type": "checkpoint",
+        "tag": [
+          "base model",
+          "universal",
+          "animals",
+          "objects",
+          "anything"
+        ],
+        "version": "2.1",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "None",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      },
+      {
+        "model_name": "stable-diffusion-xl-base-1.0",
+        "model_type": "checkpoint",
+        "tag": [
+          "base model",
+          "universal",
+          "animals",
+          "objects",
+          "anything"
+        ],
+        "version": "1.0",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "None",
+          "None"
+        ],
+        "negtive_prompts": [
+          "low quality, bad quality",
+          "None"
+        ]
+      }
+    ],
+    "anything": [
+      {
+        "model_name": "dreamshaperXL10_alpha2Xl10.safetensors",
+        "model_type": "checkpoint trained",
+        "tag": [
+          "base model",
+          "artstyle",
+          "person",
+          "realistic",
+          "dreamshaper"
+        ],
+        "version": "alpha2",
+        "trigger_words": [
+          "None"
+        ],
+        "base_model": "SDXL 1.0",
+        "resources_used": [
+          "None"
+        ],
+        "example_prompts": [
+          "photo, 8k portrait of beautiful cyborg with brown hair, intricate, elegant, highly detailed, majestic, digital photography, art by artgerm and ruan jia and greg rutkowski surreal painting gold butterfly filigree, broken glass, (masterpiece, sidelighting, finely detailed beautiful eyes: 1.2), hdr, realistic, high definition",
+          "(masterpiece), (extremely intricate:1.3), (realistic), movie screencap, dragon flying through the sky, 8k, 4k, hd"
+        ],
+        "negtive_prompts": [
+          "embedding:BadDream, embedding:FastNegativeV2",
+          "(deformed iris, deformed pupils), text, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, (extra fingers), (mutated hands), poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, (fused fingers), (too many fingers), long neck, camera embedding:BadDream embedding:FastNegativeV2"
+        ]
+      }
+    ]
+  }
+}
