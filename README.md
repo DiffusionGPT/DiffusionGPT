@@ -23,6 +23,8 @@ All the checkpoints can get from [link](https://huggingface.co/spaces/DiffusionG
 
 ```bash
 python DiffusionGPT-sdxl-app.py
+```
 or
+```bash
 python DiffusionGPT-sd15-app.py
 ```
